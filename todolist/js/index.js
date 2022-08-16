@@ -37,6 +37,7 @@ btnAZ.addEventListener('click', function(){
         }
         return 0;
     })
+    localStorage.setItem('tasks', JSON.stringify(tasks))
     renderTask(tasks)
 })
 btnZA.addEventListener('click', function(){
@@ -50,6 +51,7 @@ btnZA.addEventListener('click', function(){
         }
         return 0;
     })
+    localStorage.setItem('tasks', JSON.stringify(tasks))
     renderTask(tasks)
 })
 
